@@ -11,9 +11,7 @@ Displays weather in selected city
 * [Installation](#installation)
 * [Usage](#usage)
 * [Contributors](#contributors)
-* [Tests](#tests)
 * [Contact](#contact)
-* [Video](#video)
 
 ## Installation
 
@@ -21,16 +19,15 @@ Clone git repository
 
 ## Usage
 
-Visit [Link](https://derrickais.github.io/weatherly/)
+[Visit link](https://derrickais.github.io/weatherly/)
 
 ## Contributors
 
 * derrickais
 
-
 ## Contact
 
-Any questions, comments, or concern? 
+Any questions, comments, or concerns? 
 
 Contact me at: 
 
