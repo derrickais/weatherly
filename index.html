@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weatherly</title>
+</head>
+<body>
+    <header>
+        Weather Dashboard
+    </header>
+    <div class="left-side">
+        <div class="search-bar">
+            <form>
+                <label for="cname">Search for a City: </label>
+                <select id="city" name="city">
+                    <option value="30.324,-97.753">Austin</option>
+                    <option value="41.835,-87.722">Chicago</option>
+                    <option value="40.777,-73.948" selected>New York</option>
+                    <option value="28.531,-81.381">Orlando</option>
+                    <option value="37.772,-122.431">San Francisco</option>
+                    <option value="47.604,-122.311">Seattle</option>
+                    <option value="39.736,-104.956">Denver</option>
+                    <option value="33.762,-84.408">Atlanta</option>
+                </select>
+                <input type="submit" value="Search">
+            </form>
+        </div>
+        <div class="city-buttons">
+            <button type="button" value="30.324,-97.753">Austin</button>
+            <button type="button" value="41.835,-87.722">Chicago</button>
+            <button type="button" value="40.777,-73.948">New York</button>
+            <button type="button" value="28.531,-81.381">Orlando</button>
+            <button type="button" value="37.772,-122.431">San Francisco</button>
+            <button type="button" value="47.604,-122.311">Seattle</button>
+            <button type="button" value="39.736,-104.956">Denver</button>
+            <button type="button" value="33.762,-84.408">Atlanta</button>
+        </div>    
+    </div>
+    <div class="right-side">
+        <div class="day-forcast">
+
+        </div>
+        <div class="weekly-forcast">
+
+        </div>
+    </div>
+</body>
+</html>
