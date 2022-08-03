@@ -27,6 +27,7 @@ body, html {
     width: 25%;
     height: calc(100% - 50px);
     font-size: large;
+    min-width: 215px;
 }
 
 button, input {
@@ -36,6 +37,11 @@ button, input {
     border: rgb(203, 203, 203);
     background-color: rgb(203, 203, 203);
     border-radius: 5px;
+}
+
+button:hover, input:hover {
+    background-color: rgb(249, 156, 171);
+    color: white;
 }
 
 .city-buttons {
@@ -67,6 +73,7 @@ select {
 
 .right-side {
     width: 75%;
+    min-width: 1000px;
 }
 
 .day-forecast {
@@ -76,6 +83,10 @@ select {
 
 .day-forecast h1 {
     margin: 5px;
+}
+
+.day-forecast h1 img {
+    width: 38px;
 }
 
 .day-forecast p {
@@ -97,6 +108,19 @@ select {
 .day{
     background-color: rgb(249, 156, 171);
     padding: 30px;
+    margin: 10px;
+    text-align: center;
+
+}
+
+.day p {
+    margin: 5px;
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+.day img {
+    width: 50px;
 }
 
 
